@@ -1,0 +1,45 @@
+@model IEnumerable<Producto>
+@{
+    ViewData["Title"] = "Lista de Productos";
+}
+<h1>@ViewData["Title"]</h1>
+
+<a asp-action="Registrar" class="btn btn-primary">Registrar</a>
+<a asp-action="Habilitar" class="btn btn-warning">Habilitar/Deshabilitar</a>
+
+<table class="table table-striped table-hover table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th><th>Nombre</th><th>Descripción</th>
+            <th>Precio</th><th>Cantidad</th><th>Categoría</th><th>Estado</th>
+            <th>Editar</th><th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Nombre</td>
+            <td>@p.Descripcion</td>
+            <td>@p.Precio</td>
+            <td>@p.Cantidad</td>
+            <td>@p.Categoria?.Nombre</td>
+            <td>@(p.Estado ? "Activo" : "Inactivo")</td>
+            <td><a asp-action="Actualizar" asp-route-id="@p.Id" class="btn btn-success btn-sm">Editar</a></td>
+            <td><a asp-action="Deshabilitar" asp-route-id="@p.Id" class="btn btn-danger btn-sm" onclick="return confirm('¿Seguro?');">Eliminar</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+        {
+            <li class="page-item @(i == (int)ViewBag.Page ? "active" : "")">
+                <a class="page-link" asp-action="Listar" asp-route-page="@i">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

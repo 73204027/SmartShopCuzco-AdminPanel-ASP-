@@ -1,0 +1,8 @@
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.AssemblyInfoInputs.cache
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.AssemblyInfo.cs
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.csproj.CoreCompileInputs.cache
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.RazorAssemblyInfo.cache
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.RazorAssemblyInfo.cs
+C:\Users\Marcelito\Documents\2-ACADEMIC LIFE\COMPUTER SCIENCE\MY PROJECTS\WEB DEV\DOTNET\2 SmartShopCuzco\SmartShopCuzco-AdminPanel\obj\Debug\net8.0\SmartShopCuzco-AdminPanel.sourcelink.json

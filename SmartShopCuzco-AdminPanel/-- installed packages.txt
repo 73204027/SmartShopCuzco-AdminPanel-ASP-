@@ -1,0 +1,22 @@
+// desde el comienzo
+
+// step1
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Pomelo.EntityFrameworkCore.MySQL
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+// step2
+dotnet restore
+
+
+// ERROR: Version conflict. Version mismatch
+// we must remove conflict versions and install the compatible versions with --version [] option
+dotnet remove package Microsoft.EntityFrameworkCore
+
+dotnet add package Microsoft.EntityFrameworkCore --version 8.0.8
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.8
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.3
+
+
+Install-Package ClosedXML
+Install-Package iText7
