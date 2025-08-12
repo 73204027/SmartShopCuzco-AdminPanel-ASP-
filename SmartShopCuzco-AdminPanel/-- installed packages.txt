@@ -15,7 +15,10 @@ dotnet remove package Microsoft.EntityFrameworkCore
 
 dotnet add package Microsoft.EntityFrameworkCore --version 8.0.8
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.8
-dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.3
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.2
+
+
+
 
 
 Install-Package ClosedXML
