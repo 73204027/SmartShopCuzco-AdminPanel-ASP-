@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartShopCuzco-AdminPanel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9029ea3c9f65742f77185cdb61e6738f1bd4794d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe3e3068d577e328eddc74c573d033c2bb63db7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartShopCuzco-AdminPanel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartShopCuzco-AdminPanel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
